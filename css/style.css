@@ -1,0 +1,75 @@
+*{ 
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{ 
+    background-color:#b91450;
+}
+h2{ 
+    color: white;
+}
+h5{ 
+    color:#b91450;
+    margin-bottom: 10px;
+}
+.container{
+     width: 80%;
+     
+     text-align: center;
+}
+.row{ 
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+input, select{ 
+    border-radius: 5px;
+    border: 1px solid #b91450;
+}
+select{
+    background-color: white;
+}
+#button, #annulla{ 
+    color: #b91450;
+    
+}
+.square{ 
+    background-color: white;
+    
+    min-height: 100px;
+    width: 70%;
+    
+}
+.square.first{ 
+    border-radius: 10px;
+}
+.square.second{ 
+    
+}
+#biglietto{ 
+    display: none;
+}
+.active{ 
+    display: block;
+}
+.col { 
+    margin: 10px 20px;
+}
+.rettangolo{ 
+    border: 1px solid black;
+    border-right: hidden;
+    min-height: 80px;
+    
+    display: flex;
+    
+    
+}
+.grey{ 
+    background-color: grey;
+    min-height: 80px;
+}
+p{ 
+    margin-top: 20px ;
+}
